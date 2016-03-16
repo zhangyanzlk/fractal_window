@@ -1,0 +1,43 @@
+SaveDc2Image	fractal.c	/^void SaveDc2Image(HDC hdc, char filename[])$/;"	f
+convert_color	fractal.c	/^COLORREF convert_color(RGB_COLOR m)$/;"	f
+draw_mandelbrot	fractal.c	/^void draw_mandelbrot(unsigned int width, unsigned int height,$/;"	f
+draw_mandelbrot2	fractal.c	/^void draw_mandelbrot2(unsigned int width, unsigned int height,$/;"	f
+draw_mandelbrot3	fractal.c	/^void draw_mandelbrot3(unsigned int width, unsigned int height,$/;"	f
+draw_mandelbrot4	fractal.c	/^void draw_mandelbrot4(unsigned int width, unsigned int height,$/;"	f
+draw_mandelbrot5	fractal.c	/^void draw_mandelbrot5(unsigned int width, unsigned int height,$/;"	f
+get_smooth_color	fractal.c	/^COLORREF get_smooth_color( double complex point, double step, unsigned int maxiter)$/;"	f
+get_smooth_color2	fractal.c	/^COLORREF get_smooth_color2( double complex point, double step, unsigned int maxiter)$/;"	f
+hsv2rgb	fractal.c	/^RGB_COLOR hsv2rgb(double h, double s, double v)$/;"	f
+interpolate	fractal.c	/^RGB_COLOR interpolate(RGB_COLOR a, RGB_COLOR b, double t)$/;"	f
+log_color	fractal.c	/^RGB_COLOR log_color(double d)$/;"	f
+mandelbrot	fractal.c	/^double mandelbrot(double complex point, unsigned int max_iterations)$/;"	f
+palette	fractal.c	/^RGB_COLOR palette(double d)$/;"	f
+HSV_COLOR	fractal.h	/^} HSV_COLOR, *P_HSV_COLOR;$/;"	t	typeref:struct:_HSV_COLOR
+P_HSV_COLOR	fractal.h	/^} HSV_COLOR, *P_HSV_COLOR;$/;"	t	typeref:struct:_HSV_COLOR
+P_RGB_COLOR	fractal.h	/^} RGB_COLOR, *P_RGB_COLOR;$/;"	t	typeref:struct:_RGB_COLOR
+RGB_COLOR	fractal.h	/^} RGB_COLOR, *P_RGB_COLOR;$/;"	t	typeref:struct:_RGB_COLOR
+_HSV_COLOR	fractal.h	/^typedef struct _HSV_COLOR {$/;"	s
+_RGB_COLOR	fractal.h	/^typedef struct _RGB_COLOR {$/;"	s
+b	fractal.h	/^    double b;$/;"	m	struct:_RGB_COLOR
+g	fractal.h	/^    double g;$/;"	m	struct:_RGB_COLOR
+h	fractal.h	/^    double h;$/;"	m	struct:_HSV_COLOR
+r	fractal.h	/^    double r;$/;"	m	struct:_RGB_COLOR
+s	fractal.h	/^    double s;$/;"	m	struct:_HSV_COLOR
+v	fractal.h	/^    double v;$/;"	m	struct:_HSV_COLOR
+MainWndProc	fractal_window.c	/^LRESULT CALLBACK MainWndProc (HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)$/;"	f
+WinMain	fractal_window.c	/^int APIENTRY WinMain(HINSTANCE hInstance,$/;"	f
+DLG_ABOUT	resource.h	9;"	d
+IDABOUT	resource.h	7;"	d
+IDB_BITMAP1	resource.h	8;"	d
+IDC_EDIT	resource.h	10;"	d
+_APS_NEXT_COMMAND_VALUE	resource.h	17;"	d
+_APS_NEXT_CONTROL_VALUE	resource.h	18;"	d
+_APS_NEXT_RESOURCE_VALUE	resource.h	16;"	d
+_APS_NEXT_SYMED_VALUE	resource.h	19;"	d
+idsAPPName	resource.h	6;"	d
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
